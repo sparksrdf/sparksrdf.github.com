@@ -7,9 +7,9 @@ Description: The original theme for the GNOME Project website.
 */
 
 
-@import url("http://sparksrdf.github.com/css/sparks/css/sparks/css/reset.css");
-@import url("http://sparksrdf.github.com/css/sparks/css/sparks/css/text.css");
-@import url("http://sparksrdf.github.com/css/sparks/css/sparks/css/960.css");
+@import url("http://sparksrdf.github.com/css/sparks/css/reset.css");
+@import url("http://sparksrdf.github.com//css/sparks/css/text.css");
+@import url("http://sparksrdf.github.com/css/sparks/css/960.css");
 
 /* Base information */
 /* ========================================================================== */
