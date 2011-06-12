@@ -7,15 +7,15 @@ Description: The original theme for the GNOME Project website.
 */
 
 
-@import url("http://sparksrdf.github.com/css/sparks/css/reset.css");
-@import url("http://sparksrdf.github.com/css/sparks/css/text.css");
-@import url("http://sparksrdf.github.com/css/sparks/css/960.css");
+@import url("http://sparksrdf.github.com/css/sparks/css/sparks/css/reset.css");
+@import url("http://sparksrdf.github.com/css/sparks/css/sparks/css/text.css");
+@import url("http://sparksrdf.github.com/css/sparks/css/sparks/css/960.css");
 
 /* Base information */
 /* ========================================================================== */
 
 html {
-    background: #fff url(http://sparksrdf.github.com/images/html-bg.png) top repeat-x;
+    background: #fff url("http://sparksrdf.github.com/css/sparks/images/html-bg.png") top repeat-x;
 }
 body {
     
@@ -71,7 +71,7 @@ a:visited {
 #global_domain_bar a {
     margin-right: 30px;
     float: right;
-    background: #5c3566 url(http://sparksrdf.github.com/images/favicon.png) 8px 7px no-repeat;
+    background: #5c3566 url("http://sparksrdf.github.com/css/sparks/images/favicon.png") 8px 7px no-repeat;
     padding: 4px 12px 2px 26px;
     color: #555753;
     text-decoration: none;
@@ -124,7 +124,7 @@ a:visited {
 
 
 #top_bar {
-    background: #2e3436 url(http://sparksrdf.github.com/images/top_bar-bg.png) top repeat-x;
+    background: #2e3436 url("http://sparksrdf.github.com/css/sparks/images/top_bar-bg.png") top repeat-x;
     padding: 8px 0;
     margin-top: 23px;
     font-size: 13px;
@@ -166,7 +166,7 @@ a:visited {
     background: rgba(100%, 100%, 100%, 0.15);
 }
 #top_bar a:active, #top_bar li.current-menu-item a, #top_bar li.current-page-ancestor a {
-    background: #1c2021 url(http://sparksrdf.github.com/images/top_bar-item-bg.png) top repeat-x;
+    background: #1c2021 url("http://sparksrdf.github.com/css/sparks/images/top_bar-item-bg.png") top repeat-x;
     -moz-box-shadow: inset 0 -1px 0 rgba(100%,100%,100%, 0.4), inset 0 1px 3px rgba(0,0,0,0.4);
     -webkit-box-shadow: inset 0 -1px 0 rgba(100%,100%,100%, 0.4), inset 0 1px 3px rgba(0,0,0,0.4);
     box-shadow: inset 0 -1px 0 rgba(100%,100%,100%, 0.4), inset 0 1px 3px rgba(0,0,0,0.4);
@@ -175,7 +175,7 @@ a:visited {
     font-weight: bold;
 }
 #top_bar li a span.home {
-    background: url(http://sparksrdf.github.com/images/top_bar-item-home.png) no-repeat;
+    background: url("http://sparksrdf.github.com/css/sparks/images/top_bar-item-home.png") no-repeat;
     padding-left: 18px;
 }
 #top_bar #main_search {
@@ -189,7 +189,7 @@ a:visited {
     font: inherit;
     color: inherit;
     padding: 8px 8px 8px 28px;
-    background: transparent url(http://sparksrdf.github.com/images/search-icon.png) 8px center no-repeat;
+    background: transparent url("http://sparksrdf.github.com/css/sparks/images/search-icon.png") 8px center no-repeat;
     color: #fff;
     border-left: 1px solid rgba(100%,100%,100%,0.3);
     outline: none;
@@ -270,7 +270,7 @@ a:visited {
 .page_title .subpages_list li a:hover {
    outline: 0;
    background: red;
-   background: #dde5ef url(http://sparksrdf.github.com/images/focus-bg.png) top repeat-x;
+   background: #dde5ef url("http://sparksrdf.github.com/css/sparks/images/focus-bg.png") top repeat-x;
    border: 1px solid #bbc5d5;
    padding: 2px 5px;
    -moz-border-radius: 4px;
@@ -360,7 +360,7 @@ a:visited {
  */
 
 .action_box {
-   background: #fffae5 url(http://sparksrdf.github.com/images/action_box-bg.png) repeat-x bottom;
+   background: #fffae5 url("http://sparksrdf.github.com/css/sparks/images/action_box-bg.png") repeat-x bottom;
    -moz-box-shadow: 0 1px 2px #e5d693, inset 0 1px rgba(100%, 100%, 100%, 0.4);
    -webkit-box-shadow: 0 1px 2px #e5d693, inset 0 1px rgba(100%, 100%, 100%, 0.4);
    box-shadow: 0 1px 2px #e5d693, inset 0 1px rgba(100%, 100%, 100%, 0.4);
@@ -443,7 +443,7 @@ a:visited {
 }
 .navigation_list > li.current_page_item,
 .navigation_list > li a.navTreeCurrentItem {
-   background: #dde5ef url(http://sparksrdf.github.com/images/focus-bg.png) top repeat-x;
+   background: #dde5ef url("http://sparksrdf.github.com/css/sparks/images/focus-bg.png") top repeat-x;
 }
 .navigation_list li:first-child {
    -moz-border-radius-topleft: 5px;
@@ -481,7 +481,7 @@ a:visited {
     /*-webkit-transition: all 200ms linear;*/
 }
 .navigation_list a:focus {
-   background: #dde5ef url(http://sparksrdf.github.com/images/focus-bg.png) top repeat-x;
+   background: #dde5ef url("http://sparksrdf.github.com/css/sparks/images/focus-bg.png") top repeat-x;
    outline: 0;
    padding: 2px 5px;
    margin: 3px;
@@ -568,7 +568,7 @@ ul.iconified_menu li a {
    border-radius: 5px;
 }
 ul.iconified_menu li a:hover, ul.iconified_menu li a:focus {
-   background: #dde5ef url(http://sparksrdf.github.com/images/focus-bg.png) top repeat-x;
+   background: #dde5ef url("http://sparksrdf.github.com/css/sparks/images/focus-bg.png") top repeat-x;
    outline: 0;
    border: 1px solid #bbc5d5;
 }
@@ -611,7 +611,7 @@ dl.icon_list dt img {
     display: inline-block;
     padding: 0 14px;
     border: 1px solid #ccc;
-    background: #ececec url(http://sparksrdf.github.com/images/action_button-bg.png) center repeat-x;
+    background: #ececec url("http://sparksrdf.github.com/css/sparks/images/action_button-bg.png") center repeat-x;
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     color: #2e3436;
@@ -693,12 +693,12 @@ dl.icon_list dt img {
 }
 .page_navigation .prev a {
     float: left;
-    background: url(http://sparksrdf.github.com/images/go-previous.png) top left no-repeat;
+    background: url("http://sparksrdf.github.com/css/sparks/images/go-previous.png") top left no-repeat;
     padding-left: 40px;
 }
 .page_navigation .next a {
     float: right;
-    background: url(http://sparksrdf.github.com/images/go-next.png) top right no-repeat;
+    background: url("http://sparksrdf.github.com/css/sparks/images/go-next.png") top right no-repeat;
     padding-right: 40px;
 }
 
@@ -720,7 +720,7 @@ dl.icon_list dt img {
     margin-top: 0;
 }
 #footer_art.default {
-    /*background-image: url(http://sparksrdf.github.com/images/footer_arts/default.png);*/
+    /*background-image: url("http://sparksrdf.github.com/css/sparks/images/footer_arts/default.png");*/
 }
 
 
@@ -728,7 +728,7 @@ dl.icon_list dt img {
 /* ========================================================================== */
 
 #footer_grass {
-    background: url(http://sparksrdf.github.com/images/grass.png) top center repeat-x;
+    background: url("http://sparksrdf.github.com/css/sparks/images/grass.png") top center repeat-x;
     height: 39px;
     margin-top: -33px;
 }
@@ -741,10 +741,10 @@ dl.icon_list dt img {
 
 #footer {
     clear: left;
-    /*background: #d3d7cf url(http://sparksrdf.github.com/images/grass.png) top center repeat-x;*/
+    /*background: #d3d7cf url("http://sparksrdf.github.com/css/sparks/images/grass.png") top center repeat-x;*/
     /*background: #d3d7cf;*/
     color: #eeeeec;
-    background: #333 url(http://sparksrdf.github.com/images/html-footer.png) top center repeat-x; /*#2F2233;    */
+    background: #333 url("http://sparksrdf.github.com/css/sparks/images/html-footer.png") top center repeat-x; /*#2F2233;    */
     padding: 20px 0;
     border-top: 5px solid #e6d6e9;
 }
@@ -819,12 +819,12 @@ dl.icon_list dt img {
 #language_selector {
     display: none;
     /* poor wanda the fish */
-    background: #555753 url(http://sparksrdf.github.com/images/language-selector-bg.png) top center repeat-x;
+    background: #555753 url("http://sparksrdf.github.com/css/sparks/images/language-selector-bg.png") top center repeat-x;
     clear: left;
     overflow: hidden;
 }
 #language_selector .container_12 {
-    background: url(http://sparksrdf.github.com/images/language-selector-wanda-bg.png) 60px right no-repeat;
+    background: url("http://sparksrdf.github.com/css/sparks/images/language-selector-wanda-bg.png") 60px right no-repeat;
     overflow: hidden;
 }
 #language_selector h3 {
@@ -876,7 +876,7 @@ hr {
 hr.top_shadow,
 hr.bottom_shadow {
     height: 25px;
-    background: url(http://sparksrdf.github.com/images/hr-shadow.png) no-repeat bottom;
+    background: url("http://sparksrdf.github.com/css/sparks/images/hr-shadow.png") no-repeat bottom;
     background-size: contain;
     border: 0;
 }
@@ -975,6 +975,6 @@ hr.bottom_shadow {
     height: 80px;
     top: 0;
     left: 0;
-    background: url(http://sparksrdf.github.com/images/video-play.png) center center no-repeat;
+    background: url("http://sparksrdf.github.com/css/sparks/images/video-play.png") center center no-repeat;
     margin: 4px;
 }
