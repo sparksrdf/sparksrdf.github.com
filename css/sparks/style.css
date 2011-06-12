@@ -15,10 +15,10 @@ Description: The original theme for the GNOME Project website.
 /* ========================================================================== */
 
 html {
-    background: #fff url("http://sparksrdf.github.com/css/sparks/images/html-bg.png") top repeat-x;
+   background: #333;
 }
 body {
-    
+     background: #fff url("http://sparksrdf.github.com/css/sparks/images/html-bg.png") top repeat-x;
 }
 a {
     color: #dba95f;
