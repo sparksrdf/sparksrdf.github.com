@@ -1,0 +1,14 @@
+---
+layout: index
+title: Sparks - Enlight the Web
+---
+
+{% for post in site.posts %}
+<div class="news">
+  <span class="date">{{ post.date | date_to_string }}</span>
+
+  <a href="{{ post.url }}">
+    <strong>{{ post.title }}</strong><br />
+     {{ post.content | strip_html | truncatewords: 100 }}</a>
+</div>
+{% endfor %}

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Good morning, Sparks -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Sparks</title>
+<link rel="stylesheet" type="text/css" media="all" href="css/sparks/style.css" />
+<link rel="icon" type="image/png" href="css/sparks/images/favicon.png" />
+<link rel="alternate" type="application/atom+xml" href="atom.xml">
+
+<script type="text/javascript" src="css/sparks/js/jquery-1.4.2.min.js"></script>
+
+<!-- Fancybox -->
+<script type="text/javascript" src="css/sparks/pack/fancybox-1.3.4/jquery.easing-1.3.pack.js"></script>
+
+<script type="text/javascript" src="css/sparks/pack/fancybox-1.3.4/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="css/sparks/pack/fancybox-1.3.4/jquery.fancybox-1.3.4.css" />
+
+<script type="text/javascript" src="css/sparks/js/template.js"></script>
+
+
+
+<script type="text/javascript"><!--
+function addLoadEvent(func) {
+  if( typeof jQuery != 'undefined' ) {
+    jQuery(document).ready( func );
+  } else if( typeof Prototype != 'undefined' ) {
+    Event.observe( window, 'load', func );
+  } else {
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function') {
+      window.onload = func;
+    } else {
+      window.onload = function() {
+        if (oldonload)
+          oldonload();
+        
+        func();
+      }
+    }
+  }
+}
+//--></script>
+<link rel="stylesheet" type="text/css" media="all" href="css/sparks/css/home.css" /><link rel="stylesheet" type="text/css" media="all" href="css/sparks/css/news.css" /></head>
+
+
+<body>
+
+    <!-- accessibility access -->
+    <div id="accessibility_access">
+        <ul>
+            <li><a href="#container">Go to page content</a></li>
+            <li><a href="#top_bar">Go to main menu</a></li>
+
+            <!--<li><a href="#s" onclick="$('#s').focus(); return false;">Go to the search field</a></li>-->
+        </ul>
+    </div>
+
+    
+    <!-- header -->
+    <div id="header" class="container_12">
+        <div id="logo" class="grid_3">
+            <h1><a title="Go to home page" href="http://sparksrdf.github.com/"><img src="css/sparks/images/sparks-logo.png" alt="Sparks: Enlight the Web" /></a></h1>
+        </div>
+        <div id="top_bar" class="grid_9">
+            <div class="left">
+
+                <div class="menu-globalnav-container"><ul id="menu-globalnav" class="menu"><li id="menu-item-1039" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1039"><a href="prism">PRISM</a></li>
+
+</ul></div>                            </div>
+            <!--<div class="right">
+                <form role="search" method="get" id="searchform" action="http://www.gnome.org/" >
+                    <div>
+
+                        <label class="hidden" for="s">Search: </label><input type="text" value="" name="s" id="s" placeholder="Search" />
+                    </div>
+                </form>
+            </div>-->
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    
+    <!-- home banner -->
+    <div id="home_banner">
+        <a href="prism"><img width="939" height="235" src="images/prism-banner.png" class="attachment-940x320 wp-post-image" alt="Introducing Prism" title="Introducing Prism" /></a>    </div>
+    
+    
+    <!-- container -->
+    <div id="container" class="two_columns">
+
+        <div class="container_12">
+        
+            <div class="grid_12">
+            
+                <div class="main_feature" style="margin-bottom: 40px; text-align: center;">
+
+<p>Introducing Sparks Prism. The first JQuery/JavaScript library designed for filtering and visualising RDF data using SPARQL.</p>
+</div>
+<p style="text-align: center;"><a class="action_button" href="prism">Learn more about PRISM</a> <a class="action_button" href="http://github.com/sparksrdf/sparks">Get PRISM</a></p>
+                
+                <hr class="bottom_shadow" />
+                
+                <div class="grid_8 alpha">
+                    <h2 style="margin-top: 0;">Latest news</h2>
+                    
+                    
+                    <div class="news_list">
+			{{ content }}                         
+                        <p><a href="/news/" class="action_button">Older news...</a></p>
+                    </div>
+                    
+                </div>
+                
+                <div class="grid_4 omega">
+                    
+                    <div class="about_box">
+                        <h4>What is Sparks ? </h4>
+                        <p>Sparks is a set of JavaScript libraries designed for simplifying the access to RDF data.</p>
+                    </div>
+                    
+                    <div class="subtle_box" style="padding: 20px;">
+                        <h4>Connect with us</h4>
+                        
+                        <div class="social_network_icons">
+                            <ul>                    
+                                <li>
+                                    <a href="http://twitter.com/sparksrdf">
+                                        <img src="css/sparks/images/social_networks/twitter.png" alt=" " />
+                                        Twitter
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            
+            </div>            
+                    <!-- footer artwork -->
+                                    <div id="footer_art" class="grid_12 default">
+                            &nbsp;
+            </div>
+        </div>
+    </div>
+    
+    <div class="clearfix"></div>
+
+    
+        <!-- footer grass -->
+  
+    <!-- footer -->
+    <div id="footer">
+        <div class="container_12">
+            <div class="links grid_9">
+
+                <div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-1048" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1048"><a href="/">The Sparks Project</a>
+<ul class="sub-menu">
+	<li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1054"><a href="http://github.com/sparksrdf/sparks">Get Sparks</a></li>
+	<li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1054"><a href="contact">Contact us</a></li>
+</ul>
+</li>
+<li id="menu-item-1047" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1047"><a href="#">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-1055" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1055"><a href="http://evhart.online.fr">EvHart Online</a></li>
+</ul>
+</li>
+
+<li id="menu-item-1046" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1046"><a href="/news">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-1063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1063"><a href="news">Latest News</a></li>
+	<li id="menu-item-1069" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1069"><a href="http://twitter.com/sparksrdf">Twitter</a></li>
+</ul>
+</li>
+</ul></div>            </div>
+            
+                        
+            <!-- footnotes -->
+            <div id="footnotes" class="grid_9">
+                Copyright © 2011 <strong>Gregoire Burel</strong><br />
+
+                <small>Free to share and remix: <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons CC-BY</a>. Optimised for standards. CSS based on the <a href="http://gnome.org/">GNOME website</a>.</small>
+            </div>
+            
+            <div class="clear"></div>
+        </div>
+    </div>
+
+
+       
+</body>
+</html>
